@@ -15,7 +15,7 @@ class WindmillView constructor(context: Context, attrs: AttributeSet? = null) :
     private var mRotateSpeed = 1
 
     init {
-        LayoutInflater.from(context).inflate(R.layout.view_windmill, this, true);
+        LayoutInflater.from(context).inflate(R.layout.view_windmill, this, true)
     }
 
     fun startRotate() {
