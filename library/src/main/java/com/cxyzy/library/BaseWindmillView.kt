@@ -12,7 +12,7 @@ import androidx.annotation.IntRange
 abstract class BaseWindmillView constructor(context: Context, attrs: AttributeSet? = null) :
     LinearLayout(context, attrs) {
 
-    fun getRotateAnimation(@IntRange(from = 1, to = 10) speed: Int): RotateAnimation {
+    private fun getRotateAnimation(@IntRange(from = 1, to = 10) speed: Int): RotateAnimation {
         val animateTime = getAnimateTimeFromSpeed(speed)
         val animation = RotateAnimation(
             0f, 360f,
