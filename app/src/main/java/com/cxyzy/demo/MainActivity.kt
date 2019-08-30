@@ -2,14 +2,14 @@ package com.cxyzy.demo
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.cxyzy.library.WindmillActivity
-import com.cxyzy.utils.ext.startActivity
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        startActivity<WindmillActivity>()
+        windmillView.startRotate(1)
+        doubleWindmillView.startRotate(1)
     }
 }

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:background="#1E90FF">
+
+    <ImageView
+        android:id="@+id/windmillBladeIv"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@mipmap/windmill_blade" />
+
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="32dp"
+        android:src="@mipmap/windmill" />
+
+    <ImageView
+        android:id="@+id/smallWindmillBladeIv"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:src="@mipmap/windmill_blade" />
+
+    <ImageView
+        android:layout_width="14dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/windmill" />
+
+</RelativeLayout>
