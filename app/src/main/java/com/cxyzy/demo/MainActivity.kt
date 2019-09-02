@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
-    val minSpeed = 1
-    val maxSpeed = 10
+    private val minSpeed = 1
+    private val maxSpeed = 10
     var speed = minSpeed
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
