@@ -30,7 +30,9 @@ abstract class BaseWindmillView constructor(context: Context, attrs: AttributeSe
     }
 
     fun startRotate(@IntRange(from = 1, to = 10) speed: Int) {
-        getToRotateViews().forEach { it.startAnimation(getRotateAnimation(speed)) }
+        getToRotateViews().forEach {
+            it.clearAnimation()
+            it.startAnimation(getRotateAnimation(speed)) }
     }
 
     abstract fun getToRotateViews(): List<View>
