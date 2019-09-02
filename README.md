@@ -92,5 +92,3 @@ class DoubleWindmillView constructor(context: Context, attrs: AttributeSet? = nu
 
 </RelativeLayout>
 ```
-# 完整源代码
-[https://github.com/cxyzy1/windmill](https://github.com/cxyzy1/windmill)
