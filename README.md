@@ -92,3 +92,19 @@ class DoubleWindmillView constructor(context: Context, attrs: AttributeSet? = nu
 
 </RelativeLayout>
 ```
+# lib库集成方法
+1. 在工程根目录下build.gradle文件中增加jitpack仓库地址：
+```
+allprojects {
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+}
+```
+2. 在app工程下build.gradle文件中增加依赖：
+```
+dependencies {
+    implementation 'com.github.cxyzy1:windmill:1.0.0'
+}
+```
