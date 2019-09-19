@@ -1,8 +1,9 @@
-package com.cxyzy.library
+package com.cxyzy.lib.ui.windwill
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
+import com.cxyzy.library.R
 import kotlinx.android.synthetic.main.view_single_windmill.view.*
 
 /**

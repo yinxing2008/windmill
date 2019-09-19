@@ -1,10 +1,9 @@
-package com.cxyzy.library
+package com.cxyzy.lib.ui.windwill
 
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import android.view.View
-import androidx.annotation.IntRange
+import com.cxyzy.library.R
 import kotlinx.android.synthetic.main.view_double_windmill.view.*
 import kotlinx.android.synthetic.main.view_double_windmill.view.windmillBladeIv
 
