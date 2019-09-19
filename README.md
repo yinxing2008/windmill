@@ -105,6 +105,6 @@ allprojects {
 2. 在app工程下build.gradle文件中增加依赖：
 ```
 dependencies {
-    implementation 'com.github.cxyzy1:windmill:1.0.4'
+    implementation 'com.github.cxyzy1:windmill:1.0.2'
 }
 ```
