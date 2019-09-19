@@ -1,4 +1,4 @@
-package com.cxyzy.lib.ui.windwill
+package com.cxyzy.lib.ui.windmill
 
 import android.content.Context
 import android.util.AttributeSet

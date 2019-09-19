@@ -6,7 +6,7 @@
     android:gravity="center"
     android:orientation="vertical">
 
-    <com.cxyzy.li b.SingleWindmillView
+    <com.cxyzy.lib.SingleWindmillView
         android:id="@+id/windmillView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
@@ -18,7 +18,7 @@
         android:layout_marginEnd="20dp"
         android:background="#FFA500" />
 
-    <com.cxyzy.li b.DoubleWindmillView
+    <com.cxyzy.lib.DoubleWindmillView
         android:id="@+id/doubleWindmillView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
